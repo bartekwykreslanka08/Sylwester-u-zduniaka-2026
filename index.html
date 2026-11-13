@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sylwester u Zduniaka 2026</title>
+<meta name="description" content="Sylwester u Zduniaka 2026: 31 grudnia 2026. Program wieczoru i rezerwacja biletów.">
+<meta name="theme-color" content="#120d2e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff3d8b'/%3E%3Cpath d='M9 10h14L9 22h14' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;700;800&display=swap">
+<style>
+/* Kolory i podstawy */
+:root{--ink:#120d2e;--i2:#1d1650;--pk:#ff3d8b;--go:#ffcf4a;--cy:#35e0ff;--sn:#f6f2ff;--mu:#b7b0dc;--r:18px}
+*{box-sizing:border-box;margin:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--ink);color:var(--sn);font:16px/1.55 Figtree,system-ui,sans-serif;overflow-x:hidden}
+body.lock{overflow:hidden}
+h1,h2,h3{font-family:Anton,Impact,'Arial Narrow',sans-serif;font-weight:400;line-height:1.05}
+a{color:inherit}
+.w{width:min(1100px,100% - 32px);margin:auto}
+section{padding:76px 0}
+h2{font-size:clamp(36px,7vw,64px);margin-bottom:10px}
+.lead{color:var(--mu);max-width:62ch;margin-bottom:30px}
+.btn{display:inline-block;border:0;border-radius:99px;padding:14px 26px;font:800 16px Figtree,sans-serif;cursor:pointer;text-decoration:none;color:#fff;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px)}
+.b1{background:linear-gradient(135deg,var(--pk),#ff7a3d);box-shadow:0 8px 28px #ff3d8b66}
+.b2{box-shadow:inset 0 0 0 2px var(--sn)}
+:focus-visible{outline:3px solid var(--cy);outline-offset:3px}
+/* Menu */
+nav{position:fixed;inset:0 0 auto;z-index:20;padding-top:env(safe-area-inset-top);background:#120d2ee6;backdrop-filter:blur(10px)}
+nav .w{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{display:flex;gap:10px;align-items:center;font:400 20px Anton,sans-serif;text-decoration:none}
+#mn{display:flex;gap:22px;list-style:none;padding:0}
+#mn a{text-decoration:none;color:var(--mu);font-weight:700}#mn a:hover{color:#fff}
+#bg{display:none;background:0;border:0;color:#fff;font-size:30px;padding:4px 8px}
+@media(max-width:860px){#bg{display:block}#mn{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;padding:12px 24px 22px;background:var(--i2)}#mn.o{display:flex}}
+/* Hero */
+.hero{position:relative;overflow:hidden;min-height:100svh;display:grid;align-items:center;padding:110px 0 120px;background:radial-gradient(ellipse at 50% 115%,#5b1a8f,transparent 62%),linear-gradient(#0a0722,var(--ink))}
+.hero:before{content:"";position:absolute;inset:-20% -10% auto;height:75%;transform-origin:50% 0;background:conic-gradient(from 200deg at 50% 0,transparent 0 40deg,#ff3d8b33 50deg,transparent 60deg 120deg,#35e0ff33 130deg,transparent 140deg);animation:sw 9s ease-in-out infinite alternate}
+@keyframes sw{to{transform:rotate(14deg)}}
+.hero .w{position:relative;z-index:1;text-align:center}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:center;color:var(--mu)}.facts b{color:var(--go)}
+h1{font-size:clamp(54px,14vw,150px);margin:20px 0 12px;background:linear-gradient(180deg,#fff,var(--go) 68%,var(--pk));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font:400 clamp(18px,3.6vw,32px) Anton,sans-serif;color:var(--cy)}
+.cd{display:flex;gap:10px;justify-content:center;margin:26px 0 8px}
+.cd div{min-width:72px;padding:12px 8px;border-radius:14px;background:#ffffff14;border:1px solid #ffffff22}
+.cd b{display:block;font:400 clamp(30px,8vw,52px) Anton,sans-serif;color:var(--go)}.cd small{color:var(--mu)}
+#cdn{color:var(--mu);margin-bottom:24px}
+/* Bilety */
+.g{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.tk{position:relative;display:flex;flex-direction:column;padding:26px 22px;border-radius:var(--r);background:linear-gradient(160deg,var(--i2),#2a1d73);border:1px solid #ffffff1f;transition:transform .25s,box-shadow .25s}
+.tk:hover{transform:translateY(-6px);box-shadow:0 18px 40px #ff3d8b44}
+.tk h3{font-size:30px}.pr{font:400 46px Anton,sans-serif;color:var(--go);margin:6px 0 14px}
+.tk ul{flex:1;margin:0 0 22px;padding:14px 0 0 18px;border-top:2px dashed #ffffff33;color:var(--mu)}
+.hot{border-color:var(--pk)}.hot:before{content:attr(data-t);position:absolute;top:-13px;right:16px;padding:3px 12px;border-radius:99px;background:var(--pk);font-weight:800;font-size:13px}
+/* Program */
+#program{background:var(--i2)}
+.tl{list-style:none;padding:0;margin-left:9px;border-left:3px solid var(--pk)}
+.tl li{position:relative;padding:0 0 26px 28px}
+.tl li:before{content:"";position:absolute;left:-11px;top:6px;width:19px;height:19px;border-radius:50%;background:var(--go);box-shadow:0 0 0 5px var(--i2)}
+.tl b{font:400 30px Anton,sans-serif;color:var(--go);margin-right:12px}.tl h3{display:inline;font-size:24px}.tl p{color:var(--mu);max-width:60ch}
+/* FAQ */
+details{margin-bottom:10px;padding:14px 18px;border-radius:14px;background:#ffffff0d}summary{cursor:pointer;font-weight:800}details p{margin-top:8px;color:var(--mu)}
+footer{padding:54px 0 120px;background:#0a0722;color:var(--mu)}
+footer .logo{color:#fff;margin-bottom:14px}#fl2{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;padding:0;margin:14px 0 22px}
+.dis{color:#fff;font-weight:700;margin-bottom:12px}footer p{max-width:70ch;font-size:14px;margin-bottom:8px}
+/* Odtwarzacz */
+.pl{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:30;display:flex;align-items:center;gap:10px;padding:8px 16px 8px 8px;border-radius:99px;background:#1d1650f2;border:1px solid #ffffff2a;box-shadow:0 10px 30px #0009}
+.pl button{display:grid;place-items:center;width:46px;height:46px;border:0;border-radius:50%;background:var(--pk);cursor:pointer}
+.pl span{font-size:12px;line-height:1.2;max-width:96px}.pl input{width:84px;accent-color:var(--pk)}
+.eq{display:flex;gap:2px;align-items:flex-end;height:20px}.eq i{width:3px;height:4px;background:var(--cy)}
+.pl.on .eq i{animation:eq .6s infinite alternate}.eq i:nth-child(2){animation-delay:.2s}.eq i:nth-child(3){animation-delay:.4s}
+@keyframes eq{to{height:20px}}
+@media(max-width:520px){.pl span{display:none}.pl input{width:64px}}
+/* Rezerwacja */
+.md{position:fixed;inset:0;z-index:40;display:none;place-items:center;padding:16px;background:#000b;overflow:auto}.md.o{display:grid}
+.mb{position:relative;width:min(520px,100%);max-height:92svh;overflow:auto;padding:26px 22px;border-radius:var(--r);background:var(--i2);border:1px solid #ffffff2a}
+.x{position:absolute;right:10px;top:6px;border:0;background:0;color:#fff;font-size:32px;cursor:pointer}
+.mb h3{font-size:30px;margin-bottom:8px}
+label{display:block;margin:12px 0;font-weight:700}
+input:not([type=range]){display:block;width:100%;margin-top:6px;padding:12px;border-radius:10px;border:1px solid #ffffff33;background:#0a0722;color:#fff;font:inherit}
+.qr{display:flex;align-items:center;gap:12px;margin:14px 0}.qr span{flex:1;font-weight:700}
+.qr button{width:42px;height:42px;border:0;border-radius:50%;background:#ffffff26;color:#fff;font-size:22px;cursor:pointer}
+.sm{margin:12px 0;color:var(--go);font-weight:700}.er{min-height:22px;color:#ff8aa8;font-weight:700}.mb small{color:var(--mu)}
+#tc{display:block;width:100%;height:auto;margin:12px 0;border-radius:12px}
+.md.o .mb{animation:mi .25s ease-out}@keyframes mi{from{opacity:0;transform:translateY(12px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:45}
+</style></head>
+<body>
+<nav><div class="w"><a class="logo" href="#top"><span>Zduniak 2026</span></a><button id="bg" aria-label="Menu" aria-expanded="false">☰</button><ul id="mn"></ul></div></nav>
+<header class="hero" id="top"><div class="w">
+<div class="facts"><span>31 grudnia 2026</span><span>U Zduniaka</span></div>
+<h1>Sylwester u Zduniaka 2026</h1>
+<p class="sub">Wejdź w Nowy Rok razem z nami.</p>
+<div class="facts" style="margin-top:18px"><span>Otwarcie bram <b>18:00</b></span><span>Start imprezy <b>20:00</b></span><span>Nowy Rok <b>00:00</b></span></div>
+<div class="cd"><div><b>00</b><small>dni</small></div><div><b>00</b><small>godz.</small></div><div><b>00</b><small>min</small></div><div><b>00</b><small>sek</small></div></div>
+<p id="cdn"></p>
+<a class="btn b1" href="#bilety">Zarezerwuj bilet</a> <a class="btn b2" href="#program">Zobacz program</a>
+</div>
+</header>
+<main>
+<section id="bilety"><div class="w"><h2>Bilety</h2><p class="lead">Wybierz kategorię biletu i zarezerwuj miejsce. Bilet pobierzesz od razu po rezerwacji.</p><div class="g" id="tk"></div></div></section>
+<section id="program"><div class="w"><h2>Program imprezy</h2><p class="lead">Plan wieczoru 31 grudnia 2026.</p><ol class="tl" id="tl"></ol></div></section>
+<section id="faq"><div class="w"><h2>FAQ</h2><p class="lead">Najważniejsze informacje w jednym miejscu.</p><div id="fq"></div></div></section>
+</main>
+<footer><div class="w"><a class="logo" href="#top"><span>Sylwester u Zduniaka 2026</span></a><ul id="fl2"></ul>
+<!-- Tu dodaj adres imprezy i dane kontaktowe organizatora -->
+<p>© 2026 Sylwester u Zduniaka. Imię i adres e-mail z formularza zostają w Twojej przeglądarce i nigdzie nie są wysyłane.</p></div></footer>
+<div class="pl" id="pl"><button id="pb" aria-label="Włącz muzykę"></button><div class="eq"><i></i><i></i><i></i></div><span id="ms">Hymn imprezy</span><input id="vl" type="range" min="0" max="1" step=".05" value=".6" aria-label="Głośność"></div>
+<audio id="au" src="assets/muzyka.mp3" loop preload="none"></audio>
+<div class="md" id="md" role="dialog" aria-modal="true" aria-labelledby="mt"><div class="mb"><button class="x" id="mx" aria-label="Zamknij">×</button><h3 id="mt">Rezerwacja</h3>
+<form id="fm" novalidate><small>Imię i adres e-mail służą tylko do wygenerowania biletu. Dane zostają w Twojej przeglądarce.</small>
+<label>Imię<input id="nm" autocomplete="given-name" maxlength="28"></label>
+<label>Adres e-mail<input id="em" type="email" autocomplete="email"></label>
+<div class="qr"><span>Liczba biletów</span><button type="button" id="qm" aria-label="Mniej">−</button><output id="qv">1</output><button type="button" id="qp" aria-label="Więcej">+</button></div>
+<p class="sm" id="sm"></p><p class="er" id="er" role="alert"></p><button class="btn b1" style="width:100%">Zarezerwuj bilet</button></form>
+<div id="res" hidden><p class="sm">Rezerwacja gotowa. Oto Twój bilet.</p><canvas id="tc"></canvas><small>Na telefonie przytrzymaj obraz, żeby go zapisać.</small><p style="margin-top:12px"><button class="btn b1" id="dl">Pobierz bilet (PNG)</button> <button class="btn b2" id="cl">Zamknij</button></p></div>
+</div></div>
+<canvas id="fx"></canvas>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],z=n=>n.toFixed(2).replace('.',',')+' zł';
+/* Dane */
+const NV=[['bilety','Bilety'],['program','Program'],['faq','FAQ']];
+const T=[
+{n:'Bilet Standard',p:49.99,d:['Wstęp na imprezę','Powitanie Nowego Roku o północy']},
+{n:'Bilet VIP',p:149.99,t:'Najczęściej wybierany',d:['Wszystko ze Standard','Miejsce w strefie VIP','Pierwszeństwo wejścia']},
+{n:'Bilet Ultra Zduniak',p:299.99,t:'Pełny pakiet',d:['Wszystko z VIP','Dostęp do wszystkich stref','Pamiątkowy certyfikat uczestnictwa']}];
+const S=[['18:00','Otwarcie bram','Wejście dla uczestników z biletami.'],
+['20:00','Start imprezy','Powitanie gości i początek wieczoru.'],
+['23:59','Odliczanie do północy','Wspólne odliczanie ostatnich sekund 2026 roku.'],
+['00:00','Nowy Rok 2027','Powitanie Nowego Roku.']];
+const Q=[['Kiedy zaczyna się impreza?','Bramy otwieramy o 18:00, start imprezy zaplanowano na 20:00, a Nowy Rok witamy o północy.'],
+['Jak zarezerwować bilet?','Wybierz kategorię w sekcji Bilety, wpisz imię i adres e-mail. Bilet pobierzesz od razu jako plik PNG.'],
+['Czy na stronie jest muzyka?','Tak. Kliknij przycisk w rogu ekranu, żeby ją włączyć. Głośność ustawisz suwakiem (iPhone ignoruje suwak, użyj przycisków głośności).'],
+['Czy moje dane są gdzieś wysyłane?','Nie. Imię i adres e-mail zostają w Twojej przeglądarce i służą tylko do wygenerowania biletu.']];
+/* Render sekcji */
+const LG='<svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#ff3d8b"/><path d="M9 10h14L9 22h14" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/></svg>';
+$$('.logo').forEach(e=>e.insertAdjacentHTML('afterbegin',LG));
+const nl=NV.map(n=>`<li><a href="#${n[0]}">${n[1]}</a></li>`).join('');$('#mn').innerHTML=nl;$('#fl2').innerHTML=nl;
+$('#tk').innerHTML=T.map((t,i)=>`<article class="tk${t.t?' hot':''}" data-t="${t.t||''}"><h3>${t.n}</h3><div class="pr">${z(t.p)}</div><ul>${t.d.map(x=>`<li>${x}</li>`).join('')}</ul><button class="btn b1" data-i="${i}">Wybieram ten bilet</button></article>`).join('');
+$('#tl').innerHTML=S.map(s=>`<li><b>${s[0]}</b><h3>${s[1]}</h3><p>${s[2]}</p></li>`).join('');
+$('#fq').innerHTML=Q.map(q=>`<details><summary>${q[0]}</summary><p>${q[1]}</p></details>`).join('');
+/* Menu */
+const bg=$('#bg'),mn=$('#mn');bg.onclick=()=>bg.setAttribute('aria-expanded',mn.classList.toggle('o'));mn.onclick=()=>{mn.classList.remove('o');bg.setAttribute('aria-expanded',false)};
+/* Licznik */
+const tg=new Date(2027,0,1,0,0,0);
+function cd(){const s=Math.max(0,Math.floor((tg-Date.now())/1e3)),v=[s/86400|0,s%86400/3600|0,s%3600/60|0,s%60];$$('.cd b').forEach((e,i)=>e.textContent=String(v[i]).padStart(2,'0'));$('#cdn').textContent=s?'do północy':'Nowy Rok już nadszedł. Do zobaczenia w 2027!'}
+cd();setInterval(cd,1000);
+/* Fajerwerki i konfetti */
+const cv=$('#fx'),cx=cv.getContext('2d'),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;let P=[],W=0,H=0,K=1;
+function rs(){K=Math.min(devicePixelRatio||1,2);W=cv.width=innerWidth*K;H=cv.height=innerHeight*K}
+function burst(x,y,n=36){if(rm)return;const h=Math.random()*360;for(let i=0;i<n;i++){const a=6.283*i/n,s=(1+Math.random()*2.6)*K;P.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:1,c:`hsl(${h+Math.random()*50} 100% 65%)`})}}
+function lp(){cx.clearRect(0,0,W,H);P=P.filter(p=>p.l>0);for(const p of P){p.x+=p.vx;p.y+=p.vy;p.vy+=.03*K;p.l-=.011;cx.globalAlpha=Math.max(p.l,0);cx.fillStyle=p.c;cx.fillRect(p.x,p.y,3*K,3*K)}requestAnimationFrame(lp)}
+rs();addEventListener('resize',rs);
+if(!rm){lp();setInterval(()=>{if(scrollY<innerHeight*.7&&!document.hidden)burst(W*(.12+Math.random()*.76),H*(.12+Math.random()*.4))},2600)}
+/* Muzyka */
+const au=$('#au'),pl=$('#pl'),pb=$('#pb'),vl=$('#vl'),PLAY='<svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>',PAUSE='<svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
+pb.innerHTML=PLAY;au.volume=.6;if(au.volume!==.6)vl.hidden=true;
+vl.oninput=()=>au.volume=vl.value;
+au.onerror=()=>$('#ms').textContent='Brak pliku assets/muzyka.mp3';
+pb.onclick=()=>{if(au.paused){au.play().then(()=>{pl.classList.add('on');pb.innerHTML=PAUSE;pb.setAttribute('aria-label','Wyłącz muzykę')}).catch(()=>$('#ms').textContent='Nie udało się odtworzyć')}else{au.pause();pl.classList.remove('on');pb.innerHTML=PLAY;pb.setAttribute('aria-label','Włącz muzykę')}};
+/* Rezerwacja */
+let cur=0,q=1;const md=$('#md'),er=s=>{$('#er').textContent=s;return false};
+function upd(){const t=T[cur];$('#qv').textContent=q;$('#sm').textContent=`${t.n} × ${q} = ${z(t.p*q)}`}
+const cm=()=>{md.classList.remove('o');document.body.classList.remove('lock')};
+$('#tk').onclick=e=>{const b=e.target.closest('button');if(!b)return;cur=+b.dataset.i;q=1;er('');$('#fm').hidden=false;$('#res').hidden=true;upd();md.classList.add('o');document.body.classList.add('lock');$('#nm').focus()};
+$('#qm').onclick=()=>{q=Math.max(1,q-1);upd()};$('#qp').onclick=()=>{q=Math.min(10,q+1);upd()};
+$('#mx').onclick=$('#cl').onclick=cm;md.onclick=e=>{if(e.target===md)cm()};addEventListener('keydown',e=>{if(e.key==='Escape')cm()});
+function draw(n,t,k){const c=$('#tc'),x=c.getContext('2d'),w=1000,h=400,s=730,id='ZDN-'+Math.random().toString(36).slice(2,8).toUpperCase();c.width=w;c.height=h;
+const g=x.createLinearGradient(0,0,w,h);g.addColorStop(0,'#2a1d73');g.addColorStop(1,'#120d2e');
+x.beginPath();x.roundRect(0,0,w,h,22);x.fillStyle=g;x.fill();x.save();x.clip();
+x.fillStyle='#ff3d8b';x.fillRect(0,0,12,h);x.fillStyle='#f6f2ff';x.fillRect(s,0,w-s,h);
+x.globalCompositeOperation='destination-out';[0,h].forEach(y=>{x.beginPath();x.arc(s,y,22,0,7);x.fill()});x.globalCompositeOperation='source-over';
+x.strokeStyle='#120d2e66';x.lineWidth=2;x.setLineDash([8,8]);x.beginPath();x.moveTo(s,30);x.lineTo(s,h-30);x.stroke();x.setLineDash([]);
+x.fillStyle='#ffcf4a';x.font='66px Anton,Impact,sans-serif';x.fillText('SYLWESTER U ZDUNIAKA',54,110,640);
+x.fillStyle='#ff3d8b';x.fillText('2026',54,176);
+const f=(l,v,X,Y,m)=>{x.fillStyle='#b7b0dc';x.font='18px Figtree,sans-serif';x.fillText(l,X,Y);x.fillStyle='#fff';x.font='800 28px Figtree,sans-serif';x.fillText(v,X,Y+34,m)};
+f('Uczestnik',n,54,236,300);f('Bilet',t.n.replace('Bilet ','')+' × '+k,390,236,300);f('Data','31.12.2026',54,316,300);f('Wejście','od 18:00, start 20:00',390,316,300);
+let q=0;for(const ch of id)q=(q*31+ch.charCodeAt(0))>>>0;
+x.fillStyle='#120d2e';for(let X=772;X<956;){q=(q*1664525+1013904223)>>>0;const b=2+(q>>>29)%4;x.fillRect(X,92,b,170);X+=b+3}
+x.font='700 24px monospace';x.textAlign='center';x.fillText(id,(s+w)/2,304);x.font='16px Figtree,sans-serif';x.fillStyle='#4b4478';x.fillText('Nr biletu',(s+w)/2,332);x.restore()}
+$('#fm').onsubmit=e=>{e.preventDefault();const n=$('#nm').value.trim(),m=$('#em').value.trim();
+if(n.length<2)return er('Wpisz imię (minimum 2 znaki).');if(!/^\S+@\S+\.\S+$/.test(m))return er('Podaj adres e-mail w poprawnym formacie.');er('');
+$('#fm').hidden=true;$('#res').hidden=false;(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>draw(n,T[cur],q));burst(W*.3,H*.4);burst(W*.7,H*.35)};
+$('#dl').onclick=()=>{const a=document.createElement('a');a.download='bilet-zduniak-2026.png';a.href=$('#tc').toDataURL('image/png');a.click()};
+</script>
+</body></html>
